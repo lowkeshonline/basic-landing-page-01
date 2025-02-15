@@ -156,6 +156,7 @@ header{
         width: 260px;
         border: 0.1px solid gray;
         border-radius: 5px;
+        object-fit: cover;
         filter:drop-shadow(2rem , 2rem , 1em , black);
     }
 
