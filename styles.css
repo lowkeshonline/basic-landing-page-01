@@ -133,6 +133,32 @@ header{
         filter: drop-shadow(2rem -2rem 7em black);
     }
 
+/* Section 2 */
+
+#section2 {
+    height: 30svh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    #gallery{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 6em;
+        flex-wrap: wrap;
+
+    }
+
+    #gallery img{
+        height: 300px;
+        width: 260px;
+        border: 0.1px solid gray;
+        border-radius: 5px;
+        filter:drop-shadow(2rem , 2rem , 1em , black);
+    }
+
 
 
 @media (max-width:768px) {
@@ -157,6 +183,7 @@ header{
 
     #hero .right{
         width: auto;
+        padding: 2em;
     }
 
     #hero-img-wrapper{
